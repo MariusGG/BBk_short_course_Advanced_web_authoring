@@ -1,0 +1,160 @@
+
+/* Small phones: from 0 to 480px */
+
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 16px;
+        background: red;
+    }
+    
+    
+    
+}
+
+
+/* Small phones to small tablets: from 481px to 839px */
+
+@media only screen and (max-width: 839px) {
+    body {
+        font-size: 16px;
+        background: purple;
+    }
+    
+}
+
+
+
+/* (840px and more ) */
+@media only screen and (min-width: 840px) {
+   
+    
+    body {
+        background: yellow;
+        font-size: 14px;
+    }
+    .container, 
+    #wrapper{
+        width: 100%
+    }
+    
+    #header h1 {
+    width: 200px;
+    font-size: 2em;
+  
+}
+    
+    div#hero-box-style {
+    width: 250px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 150px;
+}
+    video {
+    width: 450px;
+    margin: 100px 10px 0 0;
+}
+    p#social-icons {
+    margin-right: 550px;
+}
+} 
+
+/*  (980px and bigger) */
+@media only screen and (min-width: 980px) {
+    
+    
+     body {
+        font-size: 16px;
+    }
+    
+     .container, 
+    #wrapper{
+        width: 100%
+    }
+    
+    #header h1 {
+    margin: 0;
+    width: 200px;
+    display: block;
+    position: absolute;
+    left: 150px;
+    bottom: 25px;
+    font-family: parisr, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 2.3em;
+    line-height: 0.70em;
+    color: #000;
+    font-weight: 300;
+    }
+    
+    div#hero-box-style {
+    width: 400px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 150px;
+}
+    p#social-icons {
+    margin-right: 700px;
+}
+    video {
+    width: 450px;
+    margin: 100px 20px 0 0;
+}
+    
+} 
+
+/* (1200px and bigger ) */
+@media only screen and (min-width: 1200px) {
+    
+    
+      body {
+        font-size: 18px;
+    }
+    
+    .container, 
+    #wrapper{
+        width: 1024px
+    }
+    
+    #header h1 {
+    margin: 0;
+    width: 200px;
+    display: block;
+    position: absolute;
+    left: 150px;
+    bottom: 25px;
+    font-family: parisr, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    line-height: 0.70em;
+    color: #000;
+    font-weight: 300;
+}
+span:first-of-type {
+    font-size: 0.5em;
+    color: #236841;
+    font-weight: 800;
+    
+}
+    
+    div#hero-box-style {
+    width: 400px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+    p#social-icons {
+     margin-right: 700px;
+}
+    
+    #social-icons a {
+    height: 30px;
+    width: 30px;
+    }
+        
+    video {
+    border: 4px solid #236841;
+    width: 450px;
+    height: 360px;
+    float: right;
+    margin: 100px 30px 0 0;
+}
+}
