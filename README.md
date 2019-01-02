@@ -1,4 +1,4 @@
-# BBk_short_course_Advanced_web_authoring
+# Advanced Web Authoring short course at Birkbeck University
 
 This is a short course in advanced web authoring, developing creative and publishing professional quality websites, using an industry-standard web authoring tools. Building on previous HTML5 and CSS3 skills.
 
