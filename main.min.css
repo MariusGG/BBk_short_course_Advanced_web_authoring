@@ -1,10 +1,10 @@
 @font-face {
     font-family: "parisr";
-    src: url('/home/mariusgg/Desktop/Project/RESOURCE/Site Logo/fonts/parisr.eot?#ie')
+    src: url('./RESOURCE/Site Logo/fonts/parisr.eot?#ie')
         format('embedded-opentype'),
-        url('/home/mariusgg/Desktop/Project/RESOURCE/Site Logo/fonts/parisr.woff') format('woff'),
-        url('/home/mariusgg/Desktop/Project/RESOURCE/Site Logo/fonts/parisr.svg#parisr') format('svg'),
-        url('/home/mariusgg/Desktop/Project/RESOURCE/Site Logo/fonts/parisr.ttf') format('truetype');
+        url('./RESOURCE/Site Logo/fonts/parisr.woff') format('woff'),
+        url('./RESOURCE/Site Logo/fonts/parisr.svg#parisr') format('svg'),
+        url('./RESOURCE/Site Logo/fonts/parisr.ttf') format('truetype');
 }
 
 /* Reset */
@@ -98,7 +98,7 @@ h2 {
 }
 
 
-.container, 
+.container,
 #wrapper {
     margin-right: auto;
     margin-left: auto;
@@ -161,13 +161,13 @@ img {
 
 #nav-main-wrapper > ul > li > a {
     padding: 3px 7px;
-    
+
 }
 
 #nav-main-wrapper > ul > li.active > a {
     color: #236841;
     font-weight: 700
-        
+
 }
 
 #nav-main-wrapper > ul > li:hover ul {
@@ -293,7 +293,7 @@ input[type=submit]:active {
 
 #wrapper {
     padding-top: 150px;
-    
+
 }
 #header h1 {
     margin: 0;
@@ -312,7 +312,7 @@ span:first-of-type {
     font-size: 0.5em;
     color: #236841;
     font-weight: 800;
-    
+
 }
 /*
 #container h1 {
@@ -390,7 +390,7 @@ div#hero-box-style h1{
     overflow: hidden;
     padding: 10px;
     margin-top: 30px;
-        
+
 }
 
 figcaption:first-of-type{
